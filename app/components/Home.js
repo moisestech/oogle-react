@@ -35,7 +35,7 @@ export default function Home () {
           alt=''
         />
 
-        <div className='home-inputContainer'>
+        <div className='home-input-container'>
           <Search />
         </div>
       </div>
