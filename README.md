@@ -1,14 +1,21 @@
 # oogle-react
 Search Engine using Google API built in React
 
+![Oogle logo](https://github.com/moisestech/oogle-react/blob/master/public/oogle_logo.png)
+
 **App Tree**
  ``` bash
 ├── README.md
 ├── app
+│   ├── components
+│   │   ├── Home.js
+│   │   └── Search.js
 │   ├── index.css
 │   ├── index.html
 │   └── index.js
 ├── package-lock.json
+├── public
+│   └── oogle_logo.png
 └── webpack.config.js
 ```
 
