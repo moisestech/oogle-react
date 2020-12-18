@@ -19,7 +19,7 @@ Search Engine using Google API built in React
 └── webpack.config.js
 ```
 
-**Map**
+**Features**
 - Context API (redux)
 - Material UI
 - React Router —> Search page to results instantly without Refresh
