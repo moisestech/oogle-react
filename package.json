@@ -4,12 +4,17 @@
   "description": "Search Engine using Google API built in React",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server",
+    "build": "NODE_ENV='production' webpack"
   },
   "babel": {
     "presets": [
       "@babel/preset-env",
       "@babel/preset-react"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-class-properties",
+      "syntax-dynamic-import"
     ]
   },
   "repository": {
@@ -17,7 +22,7 @@
     "url": "git+https://github.com/moisestech/oogle-react.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Moises Sanabria",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/moisestech/oogle-react/issues"
